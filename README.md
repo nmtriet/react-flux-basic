@@ -4,18 +4,18 @@ Component Description:
 
 - Dispatcher (AppDispatcher.js): the central hub that manages all data flow.  
 - Store (AppStore.js):  
-    + Register a callback function with Dispatcher to receive data from Action. Note: The Action is created when users interact with application such as press button,...
+    + Register a callback function with Dispatcher to receive data from Action. The Action is created when users interact with application such as press button,...
     + When receive the action, create a new item and emit change to Controller-View to update approriate View.  
 - Controller-View & View:   
-    + Controller-View (App.jsx): is top of the nested view hierarchy. It's in charge of listening for events and retrieve data from the Store in an event handler. When it receives onChange command, re-render themselves and all of their descendants in the component tree.  
-    + View (Main.jsx): render data from Controller-View and where users interact with application.
+    + Controller-View (App.jsx): is top of the nested view hierarchy. It's in charge of listening for events and retrieving data from the Store in an event handler. When it receives onChange command, re-render themselves and all of their descendants in the component tree.  
+    + View (Main.jsx): render data and where users interact with application.
 
 --------------------------------------------------------------------------------------------------
 
 Flow Description:  
 
 - User enters data and presses Add button to insert a new item -> create an Action with "ADD_ACTION" actionType and send it to Dispatcher.  
-- Store receives "ADD_ACTION". Then create a new item and emit changes to Controller-View. Controller-View receives data and re-render child Views.  
+- Store receives "ADD_ACTION". Then create a new item and emit changes to Controller-View. Controller-View receives data and re-render child Views, which has a new item in list.  
 
 --------------------------------------------------------------------------------------------------
 
