@@ -28,7 +28,7 @@ Flux is application architecture with Unidirectional model. It has three main co
 ## Installation
 
 ### Development Environment: Run in webpack-dev-server  
-1. Install all node modules (build into node_modules folder)  
+1.Install all node modules (build into node_modules folder)  
 
 ```
 npm install
@@ -60,4 +60,4 @@ npm run build
 <script type="text/javascript" src="build/js/bundle.js"></script>
 ```
 
-3.Config apache or nginx and run in browser.  
+3.Config apache or nginx and run in browser.
