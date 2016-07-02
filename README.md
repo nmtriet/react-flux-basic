@@ -27,38 +27,40 @@ Flux is application architecture with Unidirectional model. It has three main co
 
 ## Installation
 
-### Development Environment: Run on webpack-dev-server
-
 1.Install all node modules (build into *node_modules* folder)  
 
 ```
 npm install
 ```
 
-2.Start webpack-dev-server. You can change config of server (IP, port) in *package.json*.
+2. Run
 
-```
-npm start
-```
+* Development Environment: Run on webpack-dev-server
 
-3.Go to url
+	* Start webpack-dev-server. You can change config of server (IP, port) in *package.json*.
 
-```
-http://localhost:8080
-```
+		```
+		npm start
+		```
 
-### Production Environment: Run on server (Nginx, Apache, ...)
+	* Go to url
 
-1.Bundle all files into a javascript file. Using *path* and *filename* in *webpack.config.js* to specify the information of bundle file.  
+		```
+		http://localhost:8080
+		```
 
-```
-npm run build
-```
+* Production Environment: Run on server (Nginx, Apache, ...)
 
-2.Include it into html by script tag.  
+	* Bundle all files into a javascript file. Using *path* and *filename* in *webpack.config.js* to specify the information of bundle file.  
 
-```
-<script type="text/javascript" src="build/js/bundle.js"></script>
-```
+		```
+		npm run build
+		```
 
-3.Config server and run in browser.
+	* Include it into html by script tag.  
+
+		```
+		<script type="text/javascript" src="build/js/bundle.js"></script>
+		```
+
+	* Config server and run in browser.
