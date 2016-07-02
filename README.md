@@ -16,7 +16,7 @@ Flux is application architecture with Unidirectional model. It has three main co
     * When receive the action, create a new item and emit change to Controller-View to update approriate View.
 
 * Controller-View & View:
-    * Controller-View (App.jsx): is top of the nested view hierarchy. It's in charge of listening for events and retrieving data from the Store in an event handler. When it receives onChange command, re-render themselves and all of their descendants in the component tree.  
+    * Controller-View (App.jsx): is top of the nested view hierarchy. It's in charge of listening for events and retrieving data from the Store in an event handler. When it receives *onChange* command, re-render themselves and all of their descendants in the component tree.  
     * View (Main.jsx): render data and where users interact with application.
 
 ## Flow Description
