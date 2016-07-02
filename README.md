@@ -1,4 +1,5 @@
 # Basic application with React & Flux
+> Sample structure of Flux framework integrate with React
 
 ![](demo.png)
 
