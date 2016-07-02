@@ -33,7 +33,7 @@ Flux is application architecture with Unidirectional model. It has three main co
 npm install
 ```
 
-2. Run
+2.Run
 
 * Development Environment: Run on webpack-dev-server
 
