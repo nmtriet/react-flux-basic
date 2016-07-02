@@ -60,4 +60,4 @@ npm run build
 <script type="text/javascript" src="build/js/bundle.js"></script>
 ```
 
-3.Config apache or nginx and run in browser.
+3.Config nginx and run in browser.
