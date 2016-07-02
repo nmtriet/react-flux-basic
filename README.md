@@ -51,13 +51,13 @@ npm install
 
 * Production Environment: Run on server (Nginx, Apache, ...)
 
-	* Bundle all files into a javascript file. Using *path* and *filename* in *webpack.config.js* to specify the information of bundle file.  
+	* Bundle all files into a javascript file. Using *path* and *filename* in *webpack.config.js* to specify the information of bundle file.
 
 		```
 		npm run build
 		```
 
-	* Include it into html by script tag.  
+	* Include it into html.
 
 		```
 		<script type="text/javascript" src="build/js/bundle.js"></script>
