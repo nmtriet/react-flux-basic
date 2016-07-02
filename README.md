@@ -21,13 +21,13 @@ Flux is application architecture with Unidirectional model. It has three main co
 
 ## Flow Description
 
-* User enters data and presses Add button to insert a new item -> create an Action with "ADD_ACTION" actionType and send it to Dispatcher.
+* User enters data and presses Add button to insert a new item -> Create an Action with "ADD_ACTION" actionType and send it to Dispatcher.
 
 * Store receives "ADD_ACTION". Then create a new item and emit changes to Controller-View. Controller-View receives data and re-render child Views, which has a new item in list.
 
 ## Installation
 
-### Development Environment: Run in webpack-dev-server  
+### Development Environment: Run on webpack-dev-server  
 1.Install all node modules (build into node_modules folder)  
 
 ```
@@ -48,7 +48,7 @@ http://localhost:8080
 
 ### Production Environment: Run on server (Nginx, Apache, ...)
 
-1.Bundle all node modules into a javascript file. Using path and filename in webpack.config.js to specify the information of bundle file.  
+1.Bundle all files into a javascript file. Using path and filename in webpack.config.js to specify the information of bundle file.  
 
 ```
 npm run build
