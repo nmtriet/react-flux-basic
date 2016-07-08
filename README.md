@@ -6,7 +6,7 @@
 ## Tools
 
 * Babel
-* Webpack & Webpack-dev-server: 
+* Webpack & Webpack-dev-server
 
 ## Introduction
 
