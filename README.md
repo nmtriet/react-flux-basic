@@ -3,6 +3,11 @@
 
 ![](demo.png)
 
+## Tools
+
+* Babel
+* Webpack & Webpack-dev-server: 
+
 ## Introduction
 
 Flux is application architecture with Unidirectional model. It has three main components: Dispatcher, Store and View.
